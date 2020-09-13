@@ -11,4 +11,11 @@ public class Parrot extends Bird{
     public void say() {
         System.out.println(name + "reapeat human`s words");
     }
+
+    @Override
+    public String toString() {
+        return "Parrot{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }

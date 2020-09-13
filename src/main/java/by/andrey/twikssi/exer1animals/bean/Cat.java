@@ -6,4 +6,11 @@ public class Cat extends Mammal{
     public void say() {
         System.out.println(name + "miu miu");
     }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
