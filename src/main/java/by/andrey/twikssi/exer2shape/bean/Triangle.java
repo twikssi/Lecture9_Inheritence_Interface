@@ -11,8 +11,7 @@ public class Triangle extends AbstractShape {
 
     @Override
     public String getName() {
-        String name ="" + this.getClass();
-        return name;
+        return "Triangle";
     }
 
     @Override

@@ -9,12 +9,11 @@ public class Square extends AbstractShape{
 
     @Override
     public String getName() {
-        String name ="" + this.getClass();
-        return name;
+        return "Square";
     }
 
     @Override
     public double getArea() {
-        return side*side;
+        return (double) side*side;
     }
 }

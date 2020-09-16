@@ -9,8 +9,7 @@ public class Circle extends AbstractShape{
 
     @Override
     public String getName() {
-        String name ="" + this.getClass();
-        return name;
+        return "Circle";
     }
 
     @Override
