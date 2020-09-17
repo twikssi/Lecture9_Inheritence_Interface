@@ -32,6 +32,7 @@ public class OperationExecutorTest {
                 new MultiplicationOperation(),
                 new SubtractionOperation(),
                 new AdditionOperation(),
+                new DivisionOperation(),
         };
 
         operationExecutor.execute(mathOperations,10,10);
