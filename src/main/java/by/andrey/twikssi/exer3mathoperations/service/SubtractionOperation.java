@@ -7,4 +7,9 @@ public class SubtractionOperation implements MathOperation {
     public double compute(double a, double b) {
         return a-b;
     }
+
+    @Override
+    public String getNameClass() {
+        return "Substraction";
+    }
 }
