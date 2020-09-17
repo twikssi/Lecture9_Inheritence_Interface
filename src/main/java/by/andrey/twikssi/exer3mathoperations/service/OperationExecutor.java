@@ -9,7 +9,8 @@ public class OperationExecutor {
 
    public void execute(MathOperation[] operations, double a, double b){
        for (MathOperation mathoperation: operations) {
-           logger.info("Math operation is " + mathoperation.getNameClass() + " " + mathoperation.compute(a,b));
+           String text = "Math operation is " + mathoperation.getNameClass() + " " + mathoperation.compute(a,b);
+           logger.info(text);
        }
     }
 }
